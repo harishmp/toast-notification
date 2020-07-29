@@ -1,0 +1,29 @@
+<div class="row mb-3">
+    <div class="col-12 text-center">
+      <div class="row justify-content-center">
+        <div class="col-lg-3 col-md-4 col-sm-12 col-12 mb-3">
+          <button (click)="openToast()" type="button" class="btn btn-primary btn-block">
+            Click to trigger Notification
+          </button>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 col-6 mb-3">
+          <button
+            (click)="clearLastToast()"
+            type="button"
+            class="btn btn-outline-primary btn-block"
+          >
+            Clear Last Notification
+          </button>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 col-6 mb-3">
+          <button
+            (click)="clearToasts()"
+            type="button"
+            class="btn btn-outline-primary btn-block"
+          >
+            Clear All Notifications
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
